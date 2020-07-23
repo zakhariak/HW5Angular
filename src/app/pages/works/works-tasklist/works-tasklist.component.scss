@@ -1,0 +1,20 @@
+.addTaskBlock {
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    width: 78%;
+  }
+
+  button {
+    width: 20%;
+  }
+}
+
+.bg-save {
+  background-color: #cecece;
+}
+
+tbody tr td:first-child {
+  font-weight: bold;
+}

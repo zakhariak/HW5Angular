@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <ul class="nav nav-tabs text-center mt-2">
+        <p class="mr-1 my-2 text-justify">Last works >>></p>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="cenzor" routerLinkActive="active">Cenzor</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="userlist" routerLinkActive="active">Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="tasklist" routerLinkActive="active">Task</a>
+        </li>
+        <p class="backHome ml-auto my-2 text-justify text-danger" routerLink="/">Back to >>>
+            Home</p>
+    </ul>
+    <div class="container-fluid mainBlock">
+        <router-outlet></router-outlet>
+    </div>
+</div>

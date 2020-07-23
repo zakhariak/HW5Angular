@@ -1,0 +1,26 @@
+form {
+  position: relative;
+}
+
+table {
+  margin: 20px;
+  margin-left: 30px;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  th {
+    padding-left: 5px;
+    font-weight: 800;
+    border-top: 1px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    text-align: start;
+    line-height: 50px;
+  }
+
+  td {
+    padding-left: 5px;
+    border-bottom: 1px solid lightgrey;
+    text-align: start;
+    line-height: 50px;
+  }
+}

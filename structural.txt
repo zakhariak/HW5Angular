@@ -1,0 +1,19 @@
+app/
+    components/
+        header
+        footer
+    pages/
+        home/
+        works/
+            works-cenzor/
+            works-userlist/
+            works-tasklist/
+    shared/
+        interfaces/
+        classes/
+        pipes/
+        services/
+        directives/
+        guards/
+
+        
